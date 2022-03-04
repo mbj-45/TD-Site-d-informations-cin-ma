@@ -25,4 +25,14 @@
   </li>
 </ul>
     </header>
+    <?php 
+    foreach ($get_film()-> results as $key => $value) {
+     echo "<p>".$value->id."</p>";
+        
+    }
+
+    ?>
+
+
+</body>
 
