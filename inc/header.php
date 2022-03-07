@@ -10,6 +10,7 @@
 </head>
 <body>
     <header>
+      <!-- Navbar -->
     <ul class="nav justify-content-center">
   <li class="nav-item">
     <a class="nav-link active" aria-current="page" href="#">Film</a>
@@ -27,7 +28,7 @@
     </header>
     <?php 
     foreach ($get_film()-> results as $key => $value) {
-     echo "<p>".$value->id."</p>";
+    //  echo "<p>".results->id."</p>";
         
     }
 
